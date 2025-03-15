@@ -5,7 +5,7 @@ export default function Splashbtns() {
   return (
     <div className="flex space-x-4 flex items-center justify-center mt-7 px-6">
       {/* Primary Button */}
-      <button className="w-43 md:w-45 h-11 !bg-[#0284C7] hover:bg-[#0EA5E9] text-[20px] md:text-xl text-white font-medium py-1 px-1 rounded-md transition-all duration-300">
+      <button className="w-44 md:w-45 h-11 !bg-[#0284C7] hover:bg-[#0EA5E9] text-[20px] md:text-xl text-white font-medium py-1 px-1 rounded-md transition-all duration-300">
         Get Started <span className="!ml-1 font-bold  !bg-[#0284C7]">→</span>
       </button>
 
