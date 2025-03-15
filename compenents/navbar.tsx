@@ -21,7 +21,7 @@ export default function Navbar() {
   
       {/* Brand Name + Dot (inline) */}
       <span className="text-white text-xl font-bold flex items-center">
-        Ocean<span className="text-[#0369A1]  mt-2 md:mt-0 text-3xl">•</span>
+        Ocean<span className="text-[#0369A1]  mt-4 md:mt-1 text-3xl">•</span>
       </span>
     </div>
       </Link>
