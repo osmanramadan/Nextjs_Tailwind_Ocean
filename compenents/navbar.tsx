@@ -8,11 +8,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#0D1321] text-white py-1 px-9 bg-red-100">
+    <nav className="bg-[#0D1321] text-white py-1 sm:px-9 px-2 bg-red-100">
 
       <div className="container mx-auto flex justify-between items-center">
 
-    <div className="flex items-center bg-[#0E1627] p-4 rounded-lg">
+      <Link href={"/"}>
+      <div className="flex items-center bg-[#0E1627] p-4 rounded-lg">
       {/* Logo Icon */}
       <div className="w-8 h-8 flex items-center justify-center mr-2">
         <img src="/favicon.ico" alt="Logo Image" className="w-full h-full" />
@@ -23,6 +24,7 @@ export default function Navbar() {
         Ocean<span className="text-[#0369A1] text-3xl">•</span>
       </span>
     </div>
+      </Link>
 
 
         {/* Desktop Menu */}
