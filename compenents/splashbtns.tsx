@@ -10,7 +10,7 @@ export default function Splashbtns() {
       </button>
 
       {/* Secondary Button */}
-      <button className="w-30 md:w-38  h-11 text-xl text-white py-2 px-3 rounded-md border-[0.1px] border-[#1E293B] hover:bg-[#1E293B] transition-all duration-300">
+      <button className="w-30 md:w-38  h-11  text-white py-2 px-3 rounded-md border-[0.1px] border-[#1E293B] hover:bg-[#1E293B] transition-all duration-300">
         View Pricing
       </button>
     </div>
