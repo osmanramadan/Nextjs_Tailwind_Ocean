@@ -19,12 +19,46 @@ export default function Home() {
           </div>
       <Splashbtns/>
 
-      <div className="splash-img mt-1 flex justify-center mt-8 px-3">
+      <div className="splash-img  flex justify-center mt-10 px-2">
       <img 
         src="/images/Hero-image.svg" 
         className="w-11/12 sm:w-2/3 md:w-2/3 lg:w-[700px] xl:w-[650px] 2xl:w-[1000px] max-w-full h-auto mx-auto"
         alt="Hero Image"
         />
+      </div>
+
+
+      <div className="partners grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-30 py-2 px-7">
+          <div className="p-4">
+          <img 
+        src="/images/partners/company-1.svg" 
+        alt="Hero Image"
+        />
+          </div>
+          <div className="p-4">
+          <img 
+        src="/images/partners/company-2.svg" 
+        alt="Hero Image"
+        />
+          </div>
+          <div className="p-4">
+          <img 
+        src="/images/partners/company-3.svg" 
+        alt="Hero Image"
+        />
+          </div>
+          <div className="p-4">
+          <img 
+        src="/images/partners/company-4.svg" 
+        alt="Hero Image"
+        />
+          </div>
+          <div className="p-4">
+          <img 
+        src="/images/partners/company-5.svg" 
+        alt="Hero Image"
+        />
+          </div>
       </div>
 
 
