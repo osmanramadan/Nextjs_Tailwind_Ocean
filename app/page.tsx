@@ -62,7 +62,7 @@ export default function Home() {
           </div>
       </div>
 
-      <div className=" grid grid-cols-1 lg:grid-cols-2 sm:mx-2 md:px-15 px-3 mx-5 text-center lg:text-start sm:mt-40 mt-25">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 sm:mx-2 md:px-15 px-3 mx-5 text-center lg:text-start lg:mt-30 mt-15">
             <div className="py-22">
               <div className="text-3xl sm:text-4xl md:text-5xl  text-[#3CB7EF] font-bold bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Powerful features to <br className="hidden lg:block"></br>help you manage  all your leads.</div>
               <div className="mt-5 text-[#94A3B8] text-center lg:text-start text-bold md:text-xl text-[18px] ">
