@@ -1,6 +1,9 @@
+import BottomBanner from "@/compenents/bottom-banner";
 import FeacturesCompenents from "@/compenents/feactures-compenents";
+import PricingTable from "@/compenents/pricing-table";
 import Splashbtn from "@/compenents/splashbtn";
 import Splashbtns from "@/compenents/splashbtns";
+import Testimonials from "@/compenents/testimonials";
 
 
 
@@ -62,6 +65,7 @@ export default function Home() {
           </div>
       </div>
 
+      {/* section */}
       <div className=" grid grid-cols-1 lg:grid-cols-2 sm:mx-2 md:px-15 px-3 mx-5 text-center lg:text-start lg:mt-30 mt-15">
             <div className="py-22">
               <div className="text-3xl sm:text-4xl md:text-5xl  text-[#3CB7EF] font-bold bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Powerful features to <br className="hidden lg:block"></br>help you manage  all your leads.</div>
@@ -78,12 +82,11 @@ export default function Home() {
               <FeacturesCompenents/>
             </div>
             
-
         </div>
-
       </div>
 
-     {/*  */}
+
+      {/* section */}
       <div className=" grid grid-cols-1 lg:grid-cols-2 sm:mx-2 md:px-15 px-3 mx-5 text-center lg:text-start lg:mt-27 mt-15">
       <div className="splash-img  flex justify-center mt-10 lg:pr-22">
         <img
@@ -100,15 +103,15 @@ export default function Home() {
 
               </div>
             <div>
+        </div>
+        </div>
 
-        </div>
-        </div>
-      {/*  */}
+      {/* section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 sm:mx-2 md:px-15 px-3 mx-5 text-center lg:text-start lg:mt-27 mt-15">
           <div className="py-20">
               <div className="text-3xl sm:text-4xl md:text-5xl  text-[#3CB7EF] font-bold bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Resource Allocation and Task Management</div>
                 <div className="mt-5 text-[#94A3B8]  text-bold md:text-xl text-[18px] ">
-                  The task management system within the CRM dashboard for engineering teams enables efficient tracking and assignment of tasks. It provides a centralized platform to create, prioritize, and monitor tasks, ensuring streamlined project execution and improved collaboration among team members.                </div>
+                  The task management system within the CRM dashboard for engineering teams enables efficient tracking and assignment of tasks. It provides a centralized platform to create, prioritize, and monitor tasks, ensuring streamlined project execution and improved collaboration among team members.</div>
 
           </div>
           
@@ -119,8 +122,23 @@ export default function Home() {
               alt="Hero Image"
             />
         </div>
-
       </div>
+
+      {/* plans */}
+      <div className="plans mt-20 md:mt-26 ">
+        <div className="text-center text-2xl sm:text-3xl text-[26px] md:text-[40px]  text-[#3CB7EF] font-bold bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Find a plan to power your projects</div>
+          <PricingTable/>
+      </div>
+
+      {/* customers */}
+      <div className="plans mt-20 md:mt-26 ">
+        <div className="text-center text-2xl sm:text-3xl text-[26px] md:text-[34px]  text-[#3CB7EF] font-[800] bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Meet our Customers
+        </div>
+          <Testimonials/>
+      </div>
+
+      {/* bottom banner */}
+      <BottomBanner/>
         
 
       </div>
