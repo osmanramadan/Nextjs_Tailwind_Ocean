@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="splash text-white flex items-center justify-center">
 
-      <div className="mt-24">
+      <div className="mt-45">
 
       <Splashbtn/>
 
@@ -132,7 +132,7 @@ export default function Home() {
 
       {/* customers */}
       <div className="plans mt-20 md:mt-26 ">
-        <div className="text-center text-2xl sm:text-3xl text-[26px] md:text-[34px]  text-[#3CB7EF] font-[800] bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Meet our Customers
+        <div className="text-center   text-[28px] sm:text-4xl md:text-[43px]  text-[#3CB7EF] font-[800] bg-gradient-to-r from-[#40bfff] via-[#2198FE] to-[#1CAAEB] bg-clip-text text-transparent">Meet our Customers
         </div>
           <Testimonials/>
       </div>
