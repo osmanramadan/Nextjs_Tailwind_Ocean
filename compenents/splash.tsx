@@ -3,8 +3,7 @@ import Splashbtns from "./splashbtns";
 
 export default function Splash(){
     return (<div>
-              {/* Title */}
-      <div className="text-center mx-auto  text-3xl md:text-5xl mt-5 text-[#3CB7EF] font-bold bg-gradient-to-r from-[#40bfff] via-[#66C6F3] to-[#00ccff] bg-clip-text text-transparent">
+      <div className="mt-3 text-center mx-auto  text-3xl md:text-5xl mt-5 text-[#3CB7EF] font-bold bg-gradient-to-r from-[#40bfff] via-[#66C6F3] to-[#00ccff] bg-clip-text text-transparent">
         A CRM dashboard for engineering teams
       </div>
 
