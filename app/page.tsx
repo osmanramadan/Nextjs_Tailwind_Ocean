@@ -16,9 +16,9 @@ export default function Home() {
     <div className="text-white flex items-center justify-center">
 
       <div className="mt-45">
-        
-        <Splash/>
         <Splashbtn/>
+        <Splash/>
+        
         <Partners/>
 
         <SectionOne/>
