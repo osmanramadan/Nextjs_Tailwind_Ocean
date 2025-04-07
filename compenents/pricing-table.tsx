@@ -45,12 +45,12 @@ const PricingTable = () => {
       </div>
 
       {/* Pricing Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 px-4">
+      <div className="container   md:px-7 px-3  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
         {plans.map((plan, index) => (
           <div 
           key={index}
             
-            className={`p-4  rounded-lg max-w-[370px] relative flex flex-col flex-wrap ${
+            className={`p-4 py-9 rounded-lg max-w-full relative flex flex-col flex-wrap ${
             plan.mostPopular ? "!bg-[#1E293B] border border-[#0284C7]" : "bg-gradient-to-r from-[#0F172A] via-[#0C2944] to-[#0F172A] border border-gray-700"
           }`}
           >
@@ -58,7 +58,7 @@ const PricingTable = () => {
             <div className={`mt-4 flex items-center justify-between space-x-2  flex-wrap ${plan.mostPopular?"!bg-[#1E293B]":"bg-gradient-to-r from-[#0F172A] via-[#0C2944] to-[#0F172A]"}`} >
               <h2 className={`text-[15px] font-semibold ${plan.mostPopular?"!bg-[#1E293B]":"bg-gradient-to-r from-[#0F172A] via-[#0C2944] to-[#0F172A]"}`}>{plan.name}</h2>
               {plan.mostPopular && (
-                <span className="text-[10px] font-semibold px-2 py-1 rounded-full !bg-[#0284C7] text-white">
+                <span className="text-[13px] font-semibold px-2 py-1 rounded-full !bg-[#0284C7] text-white">
                   Most Popular
                 </span>
               )}
