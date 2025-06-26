@@ -20,7 +20,7 @@ export default function Home() {
         <Splash/>
         
         <Partners/>
-
+        
         <SectionOne/>
         <SectionTwo/>
         <SectionThree/>

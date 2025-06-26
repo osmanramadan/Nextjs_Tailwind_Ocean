@@ -27,7 +27,7 @@ const PricingTable = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center bg-gray-900 text-white py-7">
+    <div id="pricing" className="flex flex-col items-center bg-gray-900 text-white py-7">
       {/* Billing Toggle */}
       <div className="flex !bg-[#1E293B] p-1 rounded-lg mb-6">
         <button 

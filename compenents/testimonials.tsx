@@ -6,25 +6,25 @@ const Testimonials = () => {
     {
       name: "Ahmed Taha",
       role: "Team Leader",
-      image: "/images/testimonials/user-1.webp", // Replace with actual image path
+      image: "/images/testimonials/user-1.webp",
       feedback: "CRM Dashboard Boosted Our Engineering Team's Productivity And Efficiency. Highly Recommended!",
     },
     {
       name: "Abdellah Massoudi",
       role: "Startup Founder",
-      image: "/images/testimonials/user-2.webp", // Replace with actual image path
+      image: "/images/testimonials/user-2.webp",
       feedback: "Game-Changer For Our Engineering Team, Revolutionizing Project Management And Collaboration.",
     },
     {
       name: "Omar Fahed",
       role: "Team Member",
-      image: "/images/testimonials/user-3.webp", // Replace with actual image path
+      image: "/images/testimonials/user-3.webp",
       feedback: "Simplified Project Manament, Improved Communication, And Empowered Decision-Making. Highly Endorsed!",
     }
   ];
 
   return (
-    <div className="container  bg-[#0F172A] text-white py-2 px-2">
+    <div id="testimonials" className="container  bg-[#0F172A] text-white py-2 px-2">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 ">
 
         {testimonials.map((testimonial, index) => (

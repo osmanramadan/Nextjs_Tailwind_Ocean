@@ -2,7 +2,7 @@ import Link from "next/link"
 
 function BottomBanner() {
   return (
-    <div className="!py-10 !mt-25 ">
+    <div id="contact" className="!py-10 !mt-25 ">
         <div className="!bg-[#1e2637] rounded-lg p-6 sm:!p-16 mx-5">
           <div className="container   px-3 !bg-[#1e2637]  flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             <div className="space-y-4 !bg-[#1e2637]">
